@@ -3,7 +3,7 @@ import "./App.css";
 import Footer from "./components/Footer";
 import Header from "./components/Header";
 import axios from "axios";
-import Task from "./components/Task";
+import AddTodo from "./components/AddTodo";
 
 function App() {
 
@@ -23,7 +23,7 @@ function App() {
     <>
       <Header />
       <main>
-        <Task todo={todo} setTodo={setTodo}/>
+        <AddTodo todo={todo} setTodo={setTodo}/>
       </main>
       <Footer />
     </>
